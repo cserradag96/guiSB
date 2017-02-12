@@ -1,5 +1,9 @@
+/* Containers personalizados */
+.container {
+    padding: 80px 120px;
+}
 
-
+/* Modificaciones en la barra de navegación */
 .navbar .navbar-nav {
     display: inline-block;
     float: none;
@@ -65,11 +69,8 @@
     line-height: 80%;
 }
 
-.container {
-    padding: 80px 120px;
-}
-
+/* Fuente Roboto por defecto */
 * {
-    font-family: 'Roboto', serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 12pt;
 }
