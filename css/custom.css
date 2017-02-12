@@ -1,63 +1,80 @@
+
+
 .navbar .navbar-nav {
-    display: inline-block;
-    float: none;
+  display: inline-block;
+  float: none;
 }
 
 .navbar .navbar-collapse {
-    text-align: center;
+  text-align: center;
 }
 
 .navbar {
-    margin-bottom: 0;
-    background-color: #33adff;
-    z-index: 9999;
-    border: 0;
-    font-size: 12px !important;
-    line-height: 1.42857143 !important;
-    letter-spacing: 4px;
-    border-radius: 0;
+  margin-bottom: 0;
+  background-color: #33adff;
+  z-index: 9999;
+  border: 0;
+  font-size: 12px !important;
+  line-height: 1.42857143 !important;
+  letter-spacing: 4px;
+  border-radius: 0;
 }
 
 .navbar li a, .navbar .navbar-brand {
-    color: #fff !important;
+  color: #fff !important;
 }
 
 .navbar-nav li a:hover, .navbar-nav li.active a {
-    color: #33adff !important;
-    background-color: #fff !important;
+  color: #33adff !important;
+  background-color: #fff !important;
 }
 
 .navbar-default .navbar-toggle {
-    border-color: transparent;
-    color: #fff !important;
+  border-color: transparent;
+  color: #fff !important;
 }
 
+/* Fondo blanco con letras negras */
+.bg-0 {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+/* Fondo blanco con letras blancas */
 .bg-1 {
-    background-color: #33adff; /* Green */
-    color: #ffffff;
+  background-color: #33adff;
+  color: #ffffff;
 }
 
+/* Fondo gris (gradiente) con letras blancas */
 .bg-2 {
-    background-image: linear-gradient(180deg, #e0e0e0, #ffffff);
-    color: #ffffff;
+  background-image: linear-gradient(180deg, #e0e0e0, #ffffff);
+  color: #ffffff;
 }
 
+/* Fondo negro con letras blancas */
 .bg-3 {
-    background-color: #000000; /* Green */
-    color: #ffffff;
+  background-color: #000000; /* Green */
+  color: #ffffff;
 }
 
+/* Fondo negro con letras blancas y +*/
 .bg-4 {
-    background-color: #000000;
-    color: #ffffff;
-    line-height: 80%;
+  background-color: #000000;
+  color: #ffffff;
+  line-height: 80%;
 }
 
 .container {
-    padding: 80px 120px;
+  padding: 80px 120px;
 }
 
-.twitter-timeline {
-	height: 200px;
-  --width: 100px;
+* {
+  font-family: 'Roboto', serif;
+  font-size: 12pt;
+}
+
+.sizeAdjust img {
+
+  border: 1px solid black;
 }
