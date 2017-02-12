@@ -1,3 +1,5 @@
+
+
 .navbar .navbar-nav {
     display: inline-block;
     float: none;
@@ -32,21 +34,31 @@
     color: #fff !important;
 }
 
+/* Fondo blanco con letras negras */
+.bg-0 {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+/* Fondo blanco con letras blancas */
 .bg-1 {
-    background-color: #33adff; /* Green */
+    background-color: #33adff;
     color: #ffffff;
 }
 
+/* Fondo gris (gradiente) con letras blancas */
 .bg-2 {
     background-image: linear-gradient(180deg, #e0e0e0, #ffffff);
     color: #ffffff;
 }
 
+/* Fondo negro con letras blancas */
 .bg-3 {
     background-color: #000000; /* Green */
     color: #ffffff;
 }
 
+/* Fondo negro con letras blancas y +*/
 .bg-4 {
     background-color: #000000;
     color: #ffffff;
@@ -55,4 +67,9 @@
 
 .container {
     padding: 80px 120px;
+}
+
+* {
+    font-family: 'Roboto', serif;
+    font-size: 12pt;
 }
