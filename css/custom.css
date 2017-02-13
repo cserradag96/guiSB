@@ -69,6 +69,16 @@
   padding: 80px 120px;
 }
 
+/* Ajustes del carrusel */
+.carousel .item {
+    width: 100%;
+    max-height: 600px;
+}
+.carousel .item img {
+    width: 100%;
+    max-height: 600px;
+}
+
 * {
   font-family: 'Roboto', serif;
   font-size: 12pt;
