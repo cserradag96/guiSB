@@ -14,6 +14,11 @@ Instrucciones:
     * Panel derecho y clickear boton "crear". Escribe Apolo y dale crear
     * Listo
 + Copiar la carpeta "Apolo" del repo en "web2py/applications/"
-+ Darle que si cuando pregunte si quiere combinar las carpetas
-+ Seleccionar reeamplazar todo cuando lo solicite
+    * Darle que si cuando pregunte si quiere combinar las carpetas
+    * Seleccionar reeamplazar todo cuando lo solicite
++ Copiar la carpeta "css" del repo en "web2py/applications/Apolo/static/"
+    * Darle que si cuando pregunte si quiere combinar las carpetas
+    * Seleccionar reeamplazar todo cuando lo solicite
++ Copiar el arvchivo "layout.html" del repo en "web2py/applications/Apolo/views/"
+    * Darle que si cuando pregunte si quiere reemplazar el archivo
 + Ve a la paina principal de admin y dale click en Apolo
